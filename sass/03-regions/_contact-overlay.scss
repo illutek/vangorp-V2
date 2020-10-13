@@ -1,0 +1,58 @@
+// //////////////////////////////
+// @@ CONTACT-OVERLAY
+// //////////////////////////////
+
+.r-contact-overlay {
+	left: -100vw;
+	padding: $default-padding;
+
+	@include bcg-overlay(map-get($colors, accent), map-get($colors, black));
+
+	&__inner {
+		
+	}
+
+	&__top {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__close {
+		display: flex;
+		width: 3rem;
+		height: 5rem;
+		cursor: pointer;
+	}
+
+	&__body {
+		display: flex;
+		flex-direction: column;
+				align-items: center;
+		
+		color: map-get($colors, white);
+    
+		font: {
+			size: $ff-size + .2rem;
+			weight: $fw-light;
+    }
+    
+    p {
+      margin-bottom: $margin-bb;
+      line-height: 2.6;
+    }
+	}
+
+	&__social {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+	&__icon {
+		width: 4.8rem;
+	}
+
+	&--visible {
+		opacity: 1;
+		left: 0;
+	}
+}

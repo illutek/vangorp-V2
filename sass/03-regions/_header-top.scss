@@ -1,0 +1,24 @@
+// /////////////////////////
+// @@ REGION HEADER TOP
+// ////////////////////////
+
+.r-header {
+  &__top {
+      background-color: map-get($colors, accent);
+      height: 5rem;
+  }
+
+    @include mq(desktop) {
+      position: fixed;
+      z-index: 5;
+      grid-area: header-top;
+      width: 50vw;
+    }
+
+  &__top-inner {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

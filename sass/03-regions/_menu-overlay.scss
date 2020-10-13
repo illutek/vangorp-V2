@@ -1,0 +1,77 @@
+// /////////////////////////
+// @@ MENU-OVELAY REGION
+// ////////////////////////
+
+.r-menu-overlay {
+  right: -100vw;
+  padding: $default-padding;
+
+  @include bcg-overlay(map-get($colors, accent-two), map-get($colors, black));
+
+  @include mq(tablet) {
+    width: 50vw;
+  }
+  
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: $margin-b;
+  }
+
+  &__close {
+    width: 5rem;
+    height: 5rem;
+    cursor: pointer;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: $margin-b;
+  }
+
+  &__items {
+      list-style-type: none;
+
+  }
+
+  &__item {
+    font: {
+      size: 2.4rem;
+      weight: $fw-light;
+    }
+    margin-left: 0;
+    justify-self: center;
+
+    &--sub {
+      &::after {
+        content: url(../images/triangle.png);
+        background-color: transparent;
+      }
+    
+    }
+    &--indent {
+      padding-left: 2rem;
+    }
+    
+  }
+
+  &__link {
+    text-decoration: none;
+    color: map-get($colors, black);
+  }
+
+  &__active {
+    color: map-get($colors, white);
+  }
+
+  &__bottom {
+    text-align: right;
+    margin-bottom: $margin-b;
+  }
+
+  &--visible {
+    opacity: 1;
+    right: 0;
+  }
+}

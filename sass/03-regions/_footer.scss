@@ -1,0 +1,55 @@
+// //////////////////////////////
+// @@ REGION FOOTER
+// //////////////////////////////
+
+.r-footer {
+  background-color: map-get($colors, accent-two);
+  padding: 2rem 0;
+
+  @include mq(tablet) {
+    flex-shrink: 0;
+  }
+
+  &__inner {
+    display: flex;
+    flex-direction: column;
+
+    @include mq(tablet) {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+
+  &__contact {
+    text-align: center;
+
+    @include mq(desktop) {
+      padding: 2rem;
+      text-align: left;
+    }
+  }
+
+  &__mail-link {
+    cursor: pointer;
+    margin-bottom: $margin-b;
+  }
+
+  &__copy {
+    background-color: map-get($colors, accent-two);
+    border-top: 1px solid map-get($colors, white);
+    padding: 1.5rem 3rem;
+    font: {
+      size: 1rem;
+    }
+
+    @include mq(desktop) {
+      border-top: none;
+      grid-area: copy;
+      z-index: 99;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 49%;
+    }
+  }
+}
