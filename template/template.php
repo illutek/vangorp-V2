@@ -27,7 +27,7 @@
 
 			<div class="c-overlay-branding__logo">
 				<a class="c-overlay-branding__link" href="index.php">
-					<img src="../dist/images/logo_accent-clr.png" alt="">
+					<img src="../dist/images/logo.png" alt="">
 				</a>
 			</div>
 
@@ -54,15 +54,14 @@
 				<div class="c-overlay-branding__title"><?php site_name(); ?></div>
 				<div class="c-overlay-branding__logo">
 					<a class="c-overlay-branding__link" href="index.php">
-						<img src="../dist/images/logo_accent-two-clr.png" alt="">
+						<img src="../dist/images/logo.png" alt="">
 					</a>
 				</div>
 			</div>
 
 			<div class="r-contact-overlay__body">
-				<p>Arbor service bvba<br>Nijverheidsstraat 36<br>
-					3583 Paal-Beringen</p>
-				<a class="c-phone c-phone--bgc" href="tel:+32491550999">+32491550999</a>
+				<p>Van Gorp Patesserie<br>Sint-Jozeflaan 33<br>2400 Mol-Wezel</p>
+				<a class="c-phone c-phone--bgc" href="tel:+3214811260">014/811260</a>
 			</div>
 
 			<div class="r-contact-overlay__social">
@@ -109,12 +108,9 @@
 				<div class="r-branding__title">
 					<div class="container">
 						<a href="<?php ('site_url'); ?>/">
+							<span class="heading-one">Patesserie</span>
 							<h1 class="heading-one"><?php site_name(); ?></h1>
 						</a>
-						<!-- slogan -->
-						<div class="r-branding__slogan">
-							<span><?php site_slogan(); ?></span>
-						</div>
 					</div>
 				</div>
 
@@ -134,13 +130,13 @@
 				<div class="container r-footer__inner">
 					<!-- Contact information -->
 					<div class="r-footer__contact">
-						<p>Joey Liberloo <br>Nijverheidsstraat 36<br>3583 Paal-Beringen</p>
+						<p>Van Gorp Patesserie<br>Sint-Jozeflaan 33<br>2400 Mol-Wezel</p>
+
 						<div class="r-footer__mail-link">
 							<a href="mailto: <?php echo strrev('moc.liamtoh@ecivres-robra'); ?> ">Contacteer ons</a>
 						</div>
 
-
-						<a class="c-btn c-btn--accent" href="tel:+32491550999">+32491550999</a>
+						<a class="c-phone c-phone--bgc" href="tel:+3214811260">014/811260</a>
 					</div>
 
 					<!-- Facebook region  -->
@@ -178,6 +174,16 @@
 
 </body>
 
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 <script src="../dist/js/all.js"></script>
+<script>
+        $(".r-header__branding").backstretch([
+          "../dist/images/IMG_0282.JPG",
+          "../dist/images/IMG_0050.JPG"
+        ], {
+            fade: 750,
+            duration: 4000
+        });
+    </script>
 
 </html>

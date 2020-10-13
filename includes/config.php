@@ -8,7 +8,7 @@
 function config($key = '')
 {
     $config = [
-        'name' => 'Patesserie Van Gorp',
+        'name' => 'Van Gorp',
         'slogan' => '',
         'site_url' => '',
         'pretty_uri' => true,

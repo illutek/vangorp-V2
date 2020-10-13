@@ -15,8 +15,6 @@
       position: fixed;
       min-height: 100%;
       width: 50vw;
-      background-image: url("../images/IMG_0282.JPG");
-      background-size: cover;
 
       grid-area: branding;
     }
@@ -33,24 +31,15 @@
     background-color: map-get($colors, accent-two);
     padding: 2rem 0;
     color: map-get($colors, accent);
-    text-align: center;
+    text-align: right;
 
     @include mq(desktop) {
-      background-image: url("../images/logo_accent-two-clr.png");
+      background-image: url("../images/logo.png");
       background-position: 90%;
-      background-color: transparent;
+      // background-color: transparent;
       color: map-get($colors, white);
       text-align: left;
       margin-top: 6rem;
-    }
-  }
-
-  &__slogan {
-    display: inline-block;
-
-    @include mq(desktop) {
-      background-color: map-get($colors, accent-two);
-      padding: 1rem 2rem;
     }
   }
 }

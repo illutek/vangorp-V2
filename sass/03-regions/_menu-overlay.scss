@@ -42,17 +42,6 @@
     }
     margin-left: 0;
     justify-self: center;
-
-    &--sub {
-      &::after {
-        content: url(../images/triangle.png);
-        background-color: transparent;
-      }
-    
-    }
-    &--indent {
-      padding-left: 2rem;
-    }
     
   }
 
