@@ -38,6 +38,10 @@
     }
   }
 
+  &__link {
+    color: map-get($colors, white);
+  }
+
   &__social {
     display: flex;
     justify-content: flex-end;

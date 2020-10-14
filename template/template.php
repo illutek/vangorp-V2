@@ -66,31 +66,7 @@
 				</div>
 			</div>
 
-			<footer class="r-footer">
-				<div class="container r-footer__inner">
-					<!-- Contact information -->
-					<div class="r-footer__contact">
-						<p>Van Gorp Patesserie<br>Sint-Jozeflaan 33<br>2400 Mol-Wezel</p>
-
-						<div class="r-footer__mail-link">
-							<a href="mailto: <?php echo strrev('moc.liamtoh@ecivres-robra'); ?> ">Contacteer ons</a>
-						</div>
-
-						<a class="c-phone c-phone--bgc" href="tel:+3214811260">014/811260</a>
-					</div>
-
-					<!-- Facebook region  -->
-					<div class="c-facebook">
-						<div class="fb-page" data-href="https://www.facebook.com/PatisserieVanGorp" data-tabs="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false">
-							<div class="fb-xfbml-parse-ignore">
-								<blockquote cite="https://www.facebook.com/PatisserieVanGorp">
-									<a href="https://www.facebook.com/PatisserieVanGorp">Arbor - service</a>
-								</blockquote>
-							</div>
-						</div>
-					</div>
-				</div>
-			</footer>
+			<?php require 'footer.inc.php'; ?>
 
 		</div><!-- end of r-main -->
 
@@ -118,8 +94,11 @@
 <script src="../dist/js/all.js"></script>
 <script>
 	$(".r-header__branding").backstretch([
-		"../dist/images/IMG_0282.JPG",
-		"../dist/images/IMG_0050.JPG"
+		"../dist/images/bcg-img/IMG_0282.JPG",
+		"../dist/images/bcg-img/IMG_0050.JPG",
+		"../dist/images/bcg-img/brood.JPG",
+		"../dist/images/bcg-img/broodmanden.JPG",
+		"../dist/images/bcg-img/fruit.JPG",
 	], {
 		fade: 750,
 		duration: 4000
@@ -129,11 +108,14 @@
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-3878171-68"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-3878171-68');
+	function gtag() {
+		dataLayer.push(arguments);
+	}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-3878171-68');
 </script>
 
 

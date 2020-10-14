@@ -3,6 +3,7 @@
 // //////////////////////////////
 
 .r-content {
+  margin-bottom: $margin-b;
 
   @include mq(tablet) {
     flex: 1 0 auto;

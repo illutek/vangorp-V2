@@ -20,11 +20,23 @@
     }
   }
 
+  &__opening-hours {
+    border-bottom: 1px solid map-get($colors, white);
+    text-align: center;
+    padding-bottom: 2.5rem;
+
+    @include mq(tablet) {
+      text-align: left;
+      border-bottom: none;
+    }
+  }
+
   &__contact {
     text-align: center;
+    padding: 2.5rem 0;
 
     @include mq(desktop) {
-      padding: 2rem;
+      padding: 0 2rem;
       text-align: left;
     }
   }
@@ -49,7 +61,7 @@
       position: fixed;
       bottom: 0;
       left: 0;
-      right: 49%;
+      right: 50%;
     }
   }
 }

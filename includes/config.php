@@ -14,6 +14,7 @@ function config($key = '')
         'pretty_uri' => true,
         'nav_menu' => [
             '' => 'Home',
+            'assortiment' => 'Assortiment',
             'zuurdesembrood' => 'Zuurdesembrood',
         ],
         'template_path' => 'template',

@@ -12,4 +12,9 @@
     color: map-get($colors, black);
     background-color: map-get($colors, accent-two);
   }
+
+  &--accent {
+    color: map-get($colors, white);
+    background-color: map-get($colors, accent);
+  }
 }

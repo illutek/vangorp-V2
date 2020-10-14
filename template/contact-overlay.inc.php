@@ -19,12 +19,7 @@
         <div class="r-contact-overlay__body">
             <p>Van Gorp Patesserie<br>Sint-Jozeflaan 33<br>2400 Mol-Wezel</p>
             <a class="c-phone c-phone--bgc" href="tel:+3214811260">014/811260</a>
-        </div>
-
-        <div class="r-contact-overlay__social">
-            <a href="https://www.facebook.com/arborservice">
-                <img class="r-contact-overlay__icon" src="../dist/images/facebook-icon.jpg" alt="">
-            </a>
+            <a class="r-contact-overlay__link" href="mailto: <?php echo strrev('eb.tenyks@eiressitap.prognav'); ?> ">Contacteer ons via e-mail</a>
         </div>
 
         <div class="c-facebook">
