@@ -5,15 +5,18 @@
 .r-content {
 
   @include mq(tablet) {
-    padding-left: 2rem;
     flex: 1 0 auto;
+  }
+
+  @include mq(desktop) {
+    padding-left: 2rem;
   }
 
   img {
     margin-bottom: $margin-b;
 
-    @include mq(desktop) {
-      width: 25%;
+    @include mq(tablet) {
+      width: 35%;
       float: left;
       margin-right: 1.5rem;
     }
