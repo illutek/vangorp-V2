@@ -1,0 +1,12 @@
+// /////////////////////////
+// @@ CONTENT (NODE) NEWS
+// ////////////////////////
+
+.n-news {
+  margin-top: 2rem;
+  background-color: map-get($colors, accent-two);
+  color: map-get($colors, white);
+  padding: 1.5rem 2.5rem;
+  min-height: 10rem;
+  display: inline-block;
+}

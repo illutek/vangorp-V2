@@ -58,6 +58,9 @@
 			<div class="r-content">
 				<div class="container">
 					<?php page_content(); ?>
+
+					<!-- news on home.phtml -->
+
 				</div>
 			</div>
 

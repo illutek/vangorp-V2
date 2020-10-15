@@ -50,11 +50,11 @@ h3 {
   line-height: 1;
   margin-bottom: $margin-b;
   font: {
-    size: 3.2em;
+    size: 2.2em;
   }
 
-  @include mq(tablet) {
-    // font-size: 4vw;
+  @include mq(desktop) {
+    font-size: 3vw;
   }
 }
 
