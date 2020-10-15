@@ -27,6 +27,7 @@
 
 		<header class="r-header">
 
+			<!-- start of r-header-top -->
 			<div class="r-header__top">
 				<div class="container r-header__top-inner">
 					<div class="r-header__menu">
@@ -41,20 +42,14 @@
 						</div>
 					</div>
 				</div>
-			</div><!-- end of r-header-top -->
+			</div>
+			<!-- end of r-header-top -->
 
-			<div class="r-header__branding">
 
-				<div class="r-branding__title">
-					<div class="container">
-						<a href="<?php ('site_url'); ?>/">
-							<span class="heading-one">Patesserie</span>
-							<h1 class="heading-one"><?php site_name(); ?></h1>
-						</a>
-					</div>
-				</div>
+			<!-- start of r-header__branding -->
+			<?php require 'header-branding.inc.php'; ?>
+			<!-- end of r-header__branding -->
 
-			</div><!-- end of r-header__branding -->
 		</header>
 
 		<!-- on desktop this is the right part -->
@@ -76,6 +71,7 @@
 
 	</div><!-- end of grid-container -->
 
+	<!-- start of cookie__alert -->
 	<div class="cookie__alert" role="alert">
 		<p>We gebruiken cookies om ervoor te zorgen dat u de beste ervaring op onze website krijgt. </p>
 
@@ -86,15 +82,16 @@
 			</button>
 		</div>
 
-	</div><!-- end of cookie__alert -->
+	</div>
+	<!-- end of cookie__alert -->
 
 </body>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="../dist/js/all.js"></script>
 <script>
-$(document).ready(function() {
-		$(".r-header__branding").backstretch([
+	$(document).ready(function() {
+		$(".c-backstretch").backstretch([
 			"dist/images/bcg-img/IMG_0282.JPG",
 			"dist/images/bcg-img/IMG_0050.JPG",
 			"dist/images/bcg-img/brood.jpg",
@@ -119,6 +116,5 @@ $(document).ready(function() {
 
 	gtag('config', 'UA-3878171-68');
 </script>
-
 
 </html>

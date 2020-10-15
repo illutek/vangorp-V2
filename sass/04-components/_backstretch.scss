@@ -1,0 +1,16 @@
+// /////////////////////////
+// @@ BACKSTRETCH
+// ////////////////////////
+
+.c-backstretch {
+  position: absolute;
+  display: none;
+
+  @include mq(desktop) {
+    display: block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50vw;
+  }
+}

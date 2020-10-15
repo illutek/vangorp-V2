@@ -36,7 +36,8 @@
     @include mq(desktop) {
       background-image: url("../images/logo.png");
       background-position: 90%;
-      // background-color: transparent;
+      position: relative;
+      z-index: 999;
       color: map-get($colors, white);
       text-align: left;
       margin-top: 6rem;
