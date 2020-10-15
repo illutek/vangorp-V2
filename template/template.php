@@ -93,18 +93,16 @@
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="../dist/js/all.js"></script>
 <script>
-	$(document).ready(function() {
-		$(".r-header__branding").backstretch([
-			"../dist/images/bcg-img/IMG_0282.JPG",
-			"../dist/images/bcg-img/IMG_0050.JPG",
-			"../dist/images/bcg-img/brood.JPG",
-			"../dist/images/bcg-img/broodmanden.JPG",
-			"../dist/images/bcg-img/fruit.JPG",
-		], {
-			fade: 750,
-			duration: 4000
-		});
-	});
+	easy_background(".r-header__branding",
+
+		{
+			slide: ["../dist/images/bcg-img/IMG_0282.JPG", "../dist/images/bcg-img/IMG_0050.JPG", "../dist/images/bcg-img/brood.JPG", "../dist/images/bcg-img/broodmanden.JPG", "../dist/images/bcg-img/fruit.JPG"],
+
+			delay: [2000, 2000, 2000, 2000, 2000]
+		}
+
+
+	);
 </script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
