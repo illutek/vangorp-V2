@@ -98,7 +98,8 @@
 		{
 			slide: ["dist/images/bcg-img/IMG_0282.JPG", "dist/images/bcg-img/IMG_0050.JPG", "dist/images/bcg-img/brood.jpg", "dist/images/bcg-img/broodmanden.jpg", "dist/images/bcg-img/fruit.jpg"],
 
-			delay: [4000, 4000, 4000, 4000, 4000]
+			// delay: [4000, 4000, 4000, 4000, 4000]
+			delay: [2000, 2000, 2000, 2000, 2000]
 		}
 
 
