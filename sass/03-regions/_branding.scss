@@ -3,12 +3,14 @@
 // ////////////////////////
 
 .r-header {
-
   @include mq(desktop) {
-    
   }
 
   &__branding {
+    transition: all 0.5s ease-in;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
     margin-bottom: $margin-b;
 
     @include mq(desktop) {
@@ -17,20 +19,11 @@
       width: 50vw;
 
       grid-area: branding;
-
-      transition: all 0.5s ease-in;
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center center;
-      // height: 100%;
-      // width: 100%;
     }
   }
-
 }
 
 .r-branding {
-
   &__title {
     background-image: url("../images/logo.png");
     background-repeat: no-repeat;
