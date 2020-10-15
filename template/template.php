@@ -99,7 +99,7 @@ $(document).ready(function() {
 			"dist/images/bcg-img/IMG_0050.JPG",
 			"dist/images/bcg-img/brood.jpg",
 			"dist/images/bcg-img/broodmanden.jpg",
-			"dist/images/bcg-img/fruit.jpg",
+			"dist/images/bcg-img/koffie.jpg",
 		], {
 			fade: 750,
 			duration: 4000
