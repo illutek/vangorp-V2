@@ -4,6 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Patisserie Van Gorp is één van de pioniers in de streek als het gaat om zuurdesembrood. Brood bakken zoals het bedoeld is.">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="<?php site_url(); ?>/dist/css/styles.css">
 	<link rel="icon" type="image/x-icon" href="<?php site_url(); ?>/favicon.ico" />
@@ -28,23 +29,8 @@
 		<header class="r-header">
 
 			<!-- start of r-header-top -->
-			<div class="r-header__top">
-				<div class="container r-header__top-inner">
-					<div class="r-header__menu">
-						<div class="c-hamburger-btn">
-							<span class="c-hamburger-btn--open">&nbsp;</span>
-							<span class="c-hamburger-btn__label"> Menu</span>
-						</div>
-					</div>
-					<div class="r-header__contact">
-						<div class="c-contact-btn js-open-contact">
-							<img src="../dist/images/contact-btn.png" alt="" />
-						</div>
-					</div>
-				</div>
-			</div>
+			<?php require 'header-top.inc.php'; ?>
 			<!-- end of r-header-top -->
-
 
 			<!-- start of r-header__branding -->
 			<?php require 'header-branding.inc.php'; ?>
