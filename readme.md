@@ -1,2 +1,2 @@
 ## Patesserie Van Gorp
-Een simpel php site, mobile first
+Een php/html site, mobile first.

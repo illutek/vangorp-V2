@@ -78,14 +78,17 @@
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <script src="../dist/js/all.js"></script>
+
+<!-- the background images on the left side only visible on desktop -->
+<!-- https://www.jquery-backstretch.com/ -->
 <script>
 	$(document).ready(function() {
 		$(".c-backstretch").backstretch([
 			"dist/images/bcg-img/IMG_0282.JPG",
+			"dist/images/bcg-img/meer-brood.jpg",
 			"dist/images/bcg-img/IMG_0050.JPG",
 			"dist/images/bcg-img/brood.jpg",
 			"dist/images/bcg-img/broodmanden.jpg",
-			"dist/images/bcg-img/koffie.jpg",
 		], {
 			fade: 750,
 			duration: 4000
