@@ -14,7 +14,7 @@
 
     <!-- start Contact information -->
     <div class="r-footer__contact">
-      <p>Van Gorp Patesserie<br>Sint-Jozeflaan 33<br>2400 Mol-Wezel</p>
+      <p>Van Gorp Patisserie<br>Sint-Jozeflaan 33<br>2400 Mol-Wezel</p>
 
       <div class="r-footer__mail-link">
         <a href="mailto: <?php echo strrev('eb.tenyks@eiressitap.prognav'); ?> ">Contacteer ons via e-mail</a>

@@ -7,7 +7,7 @@
   <div class="r-branding__title">
     <div class="container">
       <a href="<?php ('site_url'); ?>/">
-        <span class="heading-one">Patesserie</span>
+        <span class="heading-one">Patisserie</span>
         <h1 class="heading-one"><?php site_name(); ?></h1>
       </a>
     </div>
