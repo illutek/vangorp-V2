@@ -5,4 +5,4 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^(.*)$ index.php?page=$1 [L]
 
-Redirect 301 /index.php https://www.patisserie-vangorp.be/
+# Redirect 301 /index.php https://www.patisserie-vangorp.be/
